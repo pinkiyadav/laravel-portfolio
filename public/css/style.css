@@ -1,0 +1,108 @@
+/* Global Background */
+body {
+    background: linear-gradient(120deg, #f6f9fc, #eef2f7);
+    font-family: 'Segoe UI', sans-serif;
+}
+header, footer {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: #ffffff;
+}
+.navbar.bg-dark {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: #ffffff;
+}
+/* HERO SECTION */
+.hero-section {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    border-radius: 15px;
+    padding: 60px 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* Section Title */
+h2 {
+    color: #4e73df;
+}
+
+/* PROJECT CARD */
+.project-card {
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+}
+
+/* Gradient Button */
+.btn-gradient {
+    background: linear-gradient(45deg, #4e73df, #1cc88a);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 22px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn-gradient:hover {
+    opacity: 0.85;
+    color: #fff;
+}
+
+/* Contact Box */
+.contact-box {
+    background: #ffffff;
+    border-left: 5px solid #4e73df;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Links */
+a {
+    color: #4e73df;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1cc88a;
+}
+
+section h5 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+section ul li {
+    margin-bottom: 8px;
+}
+
+.skills-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.skill-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 6px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    background: linear-gradient(135deg, #1f2937, #2c3e50);
+    color: #ffffff;
+    transition: 0.3s ease;
+    cursor: default;
+}
+
+.skill-badge:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #4e73df, #764ba2);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+#projects {
+    margin-top: 50px;
+}
