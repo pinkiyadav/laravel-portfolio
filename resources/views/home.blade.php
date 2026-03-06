@@ -37,6 +37,8 @@
         <span class="skill-badge">Leonardo AI</span>
         <span class="skill-badge">jQuery</span>
         <span class="skill-badge">AJAX</span>
+        <span class="skill-badge">Git</span>
+        <span class="skill-badge">Svn</span>
 
         <span class="skill-badge">Technical Project Leadership</span>
 
@@ -51,8 +53,8 @@
         <div class="card project-card h-100 border-0">
             <div class="card-body">
                 <h5 class="card-title fw-bold">{{ $project->title }}</h5>
-                <p class="card-text text-muted">{{ $project->description }}</p>
-                <p><strong>Tech:</strong> {{ $project->technologies }}</p>
+                {{-- <p class="card-text text-muted">{{ $project->description }}</p> --}}
+                <p><strong>Tech:</strong> {{ $project->description }}</p>
 
                 @if($project->link)
                 <a href="{{ $project->link }}" target="_blank" 
@@ -73,7 +75,7 @@
     <h2 class="fw-bold mb-3">Contact Me</h2>
     <p>Email: <a href="mailto:pinki.ajay.y@gmail.com">pinki.ajay.y@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/pinki-yadav-334068141" target="_blank">LinkedIn Profile</a></p>
-    <p>GitHub: <a href="https://github.com/pinkiyadav/pinkiyadav.github.io" target="_blank">GitHub Profile</a></p>
+    <p>GitHub: <a href="https://pinkiyadav.github.io/" target="_blank">GitHub Profile</a></p>
 </div>
 
 @endsection
