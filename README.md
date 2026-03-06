@@ -3,7 +3,7 @@
 A personal portfolio website built with **Laravel 10**, **MySQL**, and **Bootstrap**.
 
 ## 📸 Preview
-![Local Preview](./screenshots/local-preview.png)
+![Local Preview](/screenshots/local-preview.png)
 
 ## 🛠️ Tech Stack
 - **Framework:** Laravel
