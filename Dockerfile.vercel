@@ -3,7 +3,9 @@ FROM dunglas/frankenphp:php8.4
 RUN install-php-extensions \
     pdo_sqlite \
     opcache \
-    zip
+    zip \
+    mbstring \
+    intl
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
@@ -16,7 +18,14 @@ RUN composer install \
     --optimize-autoloader \
     --no-interaction
 
-RUN php artisan optimize
+RUN rm -f bootstrap/cache/*.php
+
+RUN mkdir -p \
+    storage/framework/cache \
+    storage/framework/sessions \
+    storage/framework/views \
+    storage/logs \
+    && chmod -R 775 storage bootstrap/cache
 
 ENV SERVER_NAME=:80
 
