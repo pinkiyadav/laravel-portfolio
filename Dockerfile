@@ -1,0 +1,21 @@
+FROM dunglas/frankenphp:php8.4
+
+RUN install-php-extensions \
+    pdo_sqlite \
+    opcache
+
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
+WORKDIR /app
+
+COPY . .
+
+RUN composer install --no-dev --optimize-autoloader
+
+RUN php artisan optimize
+
+ENV SERVER_NAME=:8080
+
+EXPOSE 8080
+
+CMD ["php", "artisan", "octane:frankenphp", "--host=0.0.0.0", "--port=8080"]
