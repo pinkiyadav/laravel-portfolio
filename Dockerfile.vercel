@@ -2,7 +2,8 @@ FROM dunglas/frankenphp:php8.4
 
 RUN install-php-extensions \
     pdo_sqlite \
-    opcache
+    opcache \
+    zip
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
