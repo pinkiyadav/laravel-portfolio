@@ -1,22 +1,32 @@
 FROM dunglas/frankenphp:php8.4
 
+# Install PHP extensions required by Laravel
 RUN install-php-extensions \
     pdo_sqlite \
     opcache \
     zip
 
+# Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /app
 
+# Copy application
 COPY . .
 
-RUN composer install --no-dev --optimize-autoloader
+# Install PHP dependencies
+RUN composer install \
+    --no-dev \
+    --optimize-autoloader \
+    --no-interaction
 
+# Laravel optimization
 RUN php artisan optimize
 
+# FrankenPHP listens on port 8080
 ENV SERVER_NAME=:8080
 
 EXPOSE 8080
 
-CMD ["php", "artisan", "octane:frankenphp", "--host=0.0.0.0", "--port=8080"]
+# Start FrankenPHP directly
+CMD ["frankenphp", "run", "--config", "/app/Caddyfile"]
