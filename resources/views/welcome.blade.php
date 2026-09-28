@@ -95,7 +95,7 @@
                                     </div>
                                     <div class="d-flex align-items-center mb-4">
                                         <i class="fab fa-firefox-browser text-primary me-3"></i>
-                                        <p class="text-dark mb-0">https://pinkiyadav.github.io/</p>
+                                        <p class="text-dark mb-0">https://pinkiyadav-laravel-portfolio.vercel.app/</p>
                                     </div>
                                     <!-- <div class="d-flex">
                                         <a class="btn btn-primary btn-sm-square me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
@@ -413,6 +413,17 @@
                                         </div>
                                     </div>
                                 </div> -->
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Laravel Portfolio</h4>
+                                        <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
+                                        <p><a href="https://pinkiyadav-laravel-portfolio.vercel.app/" target="_blank">https://pinkiyadav-laravel-portfolio.vercel.app/</a></p>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
                                     <div class="col-xl-6">
