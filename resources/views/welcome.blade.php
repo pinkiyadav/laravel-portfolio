@@ -427,9 +427,9 @@
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
                                     <div class="col-xl-6">
-                                        <h4 class="text-body">Chat Application with api integration</h4>
+                                        <h4 class="text-body">Analytics SDK & Dashboard (React + Laravel)</h4>
                                         <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
-                                        <p><a href="https://dev-soul-chatbot.pantheonsite.io/chatbot/" target="_blank">https://dev-soul-chatbot.pantheonsite.io/chatbot/</a></p>
+                                        <p><a href="https://github.com/pinkiyadav/analytics-sdk-dashboard/" target="_blank">https://github.com/pinkiyadav/analytics-sdk-dashboard/</a></p>
                                     </div>
                                     
                                 </div>
