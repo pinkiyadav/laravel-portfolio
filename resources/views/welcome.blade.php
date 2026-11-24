@@ -212,7 +212,7 @@
                                         <div class="d-flex align-items-center mb-3">
                                             <p class="fs-5 mb-0 me-4">Mumbai university</p>
                                             <div>
-                                                <span class="fa fa-calendar me-1"></span> 2003 - 2005
+                                                <span class="fa fa-calendar me-1"></span> 2002 - 2005
                                             </div>
                                         </div>
                                         <h4 class="mb-3">BA (Economics)</h4>
@@ -252,9 +252,10 @@
                                             </div>
                                         </div>
                                         <h4 class="mb-3">Full Stack Php Developer</h4>
-                                        <p class="mb-0">Worked on WordPress Project based on elementor https://oicareercolleges.com
-
-                                        </p>
+                                        <p><i class="fa fa-check me-2"></i> Worked on Elementor-based WordPress projects, including oicareercolleges.com and Oxford sites.</p>
+					<p><i class="fa fa-check me-2"></i> Developed with PHP, MySQL, Tailwind CSS, Alpine.js and TypeScript.</p>
+                                        <p><i class="fa fa-check me-2"></i> Contributed to website development and digital transformation initiatives.</p>
+                                        
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -266,8 +267,11 @@
                                             </div>
                                         </div>
                                         <h4 class="mb-3">Php Developer</h4>
-                                        <p class="mb-0">Worked on wordpress, WooCommerce, php and CodeIgniter Websites.
-                                        </p>
+					<p><i class="fa fa-check me-2"></i> Developed and maintained WordPress, WooCommerce, PHP and CodeIgniter websites for e-commerce and healthcare clients.</p>
+					<p><i class="fa fa-check me-2"></i> Customized Woocommerce functionality, checkout processes, payment integration and product management workflows.</p>
+					<p><i class="fa fa-check me-2"></i> Integrated third-party APIS for automated stock updates, product imports and inventory synchronization.</p>
+					<p><i class="fa fa-check me-2"></i> Implemented AI-powered image generation workflows using OpenAI and Leonardo AI APIs.</p>
+					<p><i class="fa fa-check me-2"></i> Developed custom WordPress features, Elementor widgets and interactive website components.</p>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -279,8 +283,9 @@
                                             </div>
                                         </div>
                                         <h4 class="mb-3">Project Lead</h4>
-                                        <p class="mb-0">Taking client meetings, guided junior developers and worked on php, wordrpess websites.
-                                        </p>
+                                        <p><i class="fa fa-check me-2"></i> Led client meetings and served as the main contact for Indian and international clients.</p>
+					<p><i class="fa fa-check me-2"></i> Guided and mentored junior developers across PHP and WordPress projects.</p>
+					<p><i class="fa fa-check me-2"></i> Built and delivered PHP and WordPress websites over an 11-year tenure.</p>
                                     </div>
                                 </div>
                             </div>
@@ -337,7 +342,7 @@
                                             <div class="col-xl-3">
                                                 <h4 class="mb-0">Web Development</h4>
                                             </div>
-                                            <div class="col-xl-4">
+                                            <div class="col-xl-6">
                                                 <p class="mb-0">Expertise in PHP, WordPress, WooCommerce, CodeIgniter, Laravel, AJAX, SVN, Git, MySQL, and Docker, with hands-on experience in API integrations, e-commerce solutions, AI-powered automation, and cloud-based development environments.
                                                 </p>
                                             </div>
@@ -358,8 +363,8 @@
                                             <div class="col-xl-3">
                                                 <h4 class="mb-0">Team Management</h4>
                                             </div>
-                                            <div class="col-xl-4">
-                                                <p class="mb-0">I can manage indian or interternational clients and have experience of managing team also.
+                                            <div class="col-xl-6">
+                                                <p class="mb-0">I can manage Indian or Interternational clients and have experience of managing team also.
                                                 </p>
                                             </div>
                                             <!-- <div class="col-xl-3">
@@ -413,73 +418,116 @@
                                         </div>
                                     </div>
                                 </div> -->
+			<div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-12">
+                                        <h4 class="text-body">Laravel Library Management System</h4>
+                                        <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
+                                        <p><a href="https://pinki-library.great-site.net/" target="_blank">https://pinki-library.great-site.net/</a></p>
+                                        <p><i class="fa fa-check me-2"></i> Designed and developed a full-stack Library Management System using Laravel 13, PHP and MySQL, with a responsive administration dashboard.</p>
+                                        <p><i class="fa fa-check me-2"></i> Developed responsive interfaces using Laravel Blade, Bootstrap, HTML5, CSS3 and JavaScript. Implemented dashboard pages, data tables, forms, pagination, category filters and validation messages.</p>
+					<p><i class="fa fa-check me-2"></i> Implemented authentication and protected dashboard routes with CRUD operations for books, authors, categories and members.</p>
+					<p><i class="fa fa-check me-2"></i> Developed book issue and return management with available-copy tracking and automatic fine calculation based on due dates.</p>
+                                    	<p><i class="fa fa-check me-2"></i> Extended the application with a public-facing online bookstore, shopping cart, order management and checkout functionality.</p>
+					<p><i> Tech: PHP 8.5, Laravel 13, MySQL, Bootstrap, HTML5, CSS3, JavaScript, Blade, Eloquent ORM.</i></p>
+					</div>
+                                    
+                                </div>
+                            </div>
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-12">
                                         <h4 class="text-body">Laravel Portfolio</h4>
                                         <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
                                         <p><a href="https://pinkiyadav-laravel-portfolio.vercel.app/" target="_blank">https://pinkiyadav-laravel-portfolio.vercel.app/</a></p>
-                                        
+                                        <p><i class="fa fa-check me-2"></i> Designed, built and deployed a responsive personal portfolio site with Laravel, hosted on Vercel.</p>
+                                        <p><i class="fa fa-check me-2"></i> Includes about, experience, education, services and project showcase sections plus a contact form.</p>
+					<p><i> Tech: PHP, Laravel, HTML5, CSS3, JavaScript</i></p>					
                                     </div>
                                     
                                 </div>
                             </div>
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-12">
                                         <h4 class="text-body">Analytics SDK & Dashboard (React + Laravel)</h4>
                                         <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
                                         <p><a href="https://github.com/pinkiyadav/analytics-sdk-dashboard/" target="_blank">https://github.com/pinkiyadav/analytics-sdk-dashboard/</a></p>
+					<p><i class="fa fa-check me-2"></i> Built a full-stack analytics application: a reusable browser tracking helper, a Laravel REST API that validates and stores events in MySQL, and a React dashboard.</p>
+                                        <p><i class="fa fa-check me-2"></i> Tracks page views and custom events (e.g. add-to-cart) with visitor and session IDs; the dashboard shows summary metrics, popular pages and a page-view chart with date-range filtering.</p>
+					<p><i class="fa fa-check me-2"></i> Demonstrated with a restaurant demo app.</p>
+					<p><i> Tech: React, Vite, Recharts, Laravel, PHP, MySQL, REST APIs</i></p>
                                     </div>
                                     
                                 </div>
                             </div>
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-12">
                                         <h4 class="text-body">WordPress Project based on elementor</h4>
                                         <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
                                         <p><a href="https://oicareercolleges.com" target="_blank">https://oicareercolleges.com</a></p>
                                         <p><a href="https://oicareercolleges.com" target="_blank">https://www.oxfordinternational.com</a></p>                                  
-
+					<p><i class="fa fa-check me-2"></i> Built custom elementor widgets based on figma design.</p>					
+					<p><i>Tech: PHP, MySQL, WordPress, Alpine js, Tailwind css</i></p>
                                     </div>
                                     
                                 </div>
                             </div>
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-12">
                                         <h4 class="text-body">API Integration Projects</h4>
                                         <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
                                         <p><a href="https://www.empirespares.co.uk" target="_blank">Empire Spares</a></p>
                                         <p><a href="https://www.pawanjewellers.co.uk" target="_blank">Pawan Jewellers</a></p>
-                                        
+                                        <p><i class="fa fa-check me-2"></i> Empire Spares (empirespares.co.uk): integrated a third-party API to update stock quantities automatically, improving inventory accuracy and cutting manual updates.</p>					
+					<p><i class="fa fa-check me-2"></i> Pawan Jewellers (pawanjewellers.co.uk): integrated the Nivoda Diamond API to import products, with cron jobs for scheduled sync and automatic updates.</p>
+					<p><i>PHP, REST APIs, Cron Jobs, MySQL, WordPress/WooCommerce</i></p>
                                     </div>                                    
                                 </div>
                             </div>
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-12">
                                         <h4 class="text-body">AI & Automation Project</h4>
                                         <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
                                         <p><a href="https://www.giftsonline4u.com/product/personalised-superhero-phot o puzzle-block/" target="_blank">GiftsOnline4U – AI Image Generation</a></p>
-                                        
+                                        <p><i class="fa fa-check me-2"></i> Integrated OpenAI and Leonardo AI APIs to generate personalised product images dynamically.</p>
+					<p><i class="fa fa-check me-2"></i> Automated the image creation workflow, improving customer experience and reducing design time.</p>
+					<p><i>OpenAI API, Leonardo AI API, PHP, WordPress, WooCommerce</i></p>
                                     </div>                                    
                                 </div>
                             </div>
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-12">
                                         <h4 class="text-body">Interactive / Flipbook Project</h4>
                                         <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
+					<p><a href="https://flipbook.9277.us" target="_blank">flipbook.9277.us</a></p>
+					<p><i class="fa fa-check me-2"></i> Developed an interactive HTML5 flipbook web app for digital catalogs and documents.</p>
+					<p><i>PHP, JavaScript, HTML5, CSS3, MySQL</i></p>
+                                                                              
+                                    </div>                                    
+                                </div>
+                            </div>
+			    <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-12">
+                                        <h4 class="text-body">Codeigniter Projects</h4>
+                                        <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
+					<p><a href="https://www.prescription2learn.org" target="_blank">prescription2learn</a></p>
                                         <p><a href="https://www.patientpathway.care" target="_blank">Patient Pathway</a></p>
-                                        <p><a href="https://www.healthuntangled.org" target="_blank">Health Untangled</a></p>                                        
+                                        <p><a href="https://www.healthuntangled.org" target="_blank">Health Untangled</a></p>
+					<p><i class="fa fa-check me-2"></i> Migrated codeigniter 3 project into codeigniter 4 and developed some custom websites also, it includes chart integration and google api integration.</p>
+					<p><i>PHP, JavaScript, HTML5, CSS3, MySQL, Codeigniter 3, Codeigniter 4</i></p>
+                                                                                
                                     </div>                                    
                                 </div>
                             </div>
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-12">
                                         <h4 class="text-body">E-Commerce & WordPress Projects</h4>
                                         <!-- <h2 class="display-6 mb-0">Chat Application with api integration</h1> -->
                                         <p><a href="http://stsinks.com" target="_blank">STS Inks</a></p>
@@ -488,6 +536,11 @@
                                         <p><a href="https://www.pharmacyandme.co.uk" target="_blank">Pharmacy and Me</a></p>
                                         <p><a href="https://www.giftsonline4u.com" target="_blank">GiftsOnline4U</a></p>
                                         <p><a href="https://www.commerciallinen.co.uk" target="_blank">Commercial Linen</a></p>
+					<p><i class="fa fa-check me-2"></i> Migrated magento website into wordpress woocommerce websites.</p>
+					<p><i class="fa fa-check me-2"></i> Integrated payment gateways like Bluepay, Stripe, Paypal.</p>
+					<p><i class="fa fa-check me-2"></i> Customized plugin and themes.</p>
+					<p><i class="fa fa-check me-2"></i> Shipping integration like UPS, USPS, Flat rate</p>
+					<p><i>PHP, WordPress, WooCommerce, MySQL</i></p>
                                     </div>                                    
                                 </div>
                             </div>
